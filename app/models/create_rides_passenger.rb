@@ -1,0 +1,2 @@
+class CreateRidesPassenger < ApplicationRecord
+end
