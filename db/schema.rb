@@ -18,10 +18,15 @@ ActiveRecord::Schema.define(version: 20140212205318) do
   end
 
   create_table "rides", force: :cascade do |t|
+<<<<<<< HEAD
     t.integer  "taxi_id"
     t.integer  "passenger_id"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
+=======
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+>>>>>>> 4f9db4533a986c3678736d638db114a0f7fdfd5a
   end
 
   create_table "taxis", force: :cascade do |t|
