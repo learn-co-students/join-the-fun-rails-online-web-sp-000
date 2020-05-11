@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20200511193817) do
+ActiveRecord::Schema.define(version: 20200511194036) do
 
   create_table "passengers", force: :cascade do |t|
     t.datetime "created_at", null: false
