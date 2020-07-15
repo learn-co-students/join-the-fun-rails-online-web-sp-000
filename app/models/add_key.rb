@@ -1,0 +1,2 @@
+class AddKey < ApplicationRecord
+end
