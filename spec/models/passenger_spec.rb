@@ -7,6 +7,7 @@ describe Passenger do
     taxi = Taxi.create
 
     passenger.taxis << taxi
+    
     passenger.save
 
     expect(taxi.passengers).to include(passenger)
