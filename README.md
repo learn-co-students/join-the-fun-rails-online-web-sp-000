@@ -1,4 +1,4 @@
-# Join the Fun
+rake # Join the Fun
 
 ## Instructions
 
